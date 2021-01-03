@@ -2,10 +2,10 @@
 App({
 
   globalData: {
-    share: false, // 分享默认为false
+    share: false, 
     height: 0,
     url: "http://172.16.119.183:8080/background_war_exploded",
-    imageUrl: "https://*.oss-cn-huhehaote.aliyuncs.com/",//这是你的oss地址,用来展示图片,后面加斜杠
+    imageUrl: "https://*.oss-cn-huhehaote.aliyuncs.com/",
     userId: -1,
     userInfo: {},
     userIsAdmin: -1,

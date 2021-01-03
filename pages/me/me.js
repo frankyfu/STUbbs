@@ -111,7 +111,8 @@ Page({
         })
         // console.log(that.data.openid)
         // 获取登录的临时凭证
-        var code = res.code;
+        let code = res.code;
+        console.log(code)
         // 调用后端，获取微信的session_key, secret
         wx.request({
           url: getApp().globalData.url + "/Login?code=" + code,
@@ -183,7 +184,7 @@ Page({
       showCancel: false,
       success: function() {
         wx.setClipboardData({
-          data: '芒果微校园',
+          data: '汕大论坛',
         })
       }
     })

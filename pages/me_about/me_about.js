@@ -36,7 +36,7 @@ Page({
       success: function(e) {
         if (e.confirm) {
           wx.makePhoneCall({
-            phoneNumber: '18996379281',
+            phoneNumber: '13302533680',
           })
         }
       }
